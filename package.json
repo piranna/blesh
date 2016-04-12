@@ -1,0 +1,33 @@
+{
+  "name": "blesh",
+  "version": "0.0.0",
+  "description": "The blessed shell",
+  "bin": "server.js",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piranna/blesh.git"
+  },
+  "keywords": [
+    "bless",
+    "shell",
+    "bash",
+    "nsh",
+    "NodeOS"
+  ],
+  "author": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piranna/blesh/issues"
+  },
+  "homepage": "https://github.com/piranna/blesh#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "cli-spinner": "piranna/node-spinner",
+    "nsh": "^0.5.0",
+    "term.js": "0.0.7"
+  }
+}
